@@ -1,0 +1,33 @@
+body {
+  background-color: #f6f6f6;
+}
+
+nav ul li a {
+  font-size: small;
+}
+
+header .jumbotron {
+  background: #f6f6f6 !important;
+}
+
+.section-networks {
+  background-color: #ffffff;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.section-networks h2 {
+  text-align: center;
+  color: #dddddd;
+}
+
+.section-networks p {
+  text-align: center;
+  color: #dddddd;
+}
+
+.section-networks .img-net {
+  border: 0px;
+  max-width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
