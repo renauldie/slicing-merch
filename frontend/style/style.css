@@ -1,18 +1,21 @@
 body {
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 nav ul li a {
   font-size: small;
 }
 
-header .jumbotron {
-  background: #f6f6f6 !important;
+.btn-primary {
+  background-color: black;
+}
+
+header {
+  background-color: #f6f6f8 !important;
 }
 
 .section-networks {
-  background-color: #ffffff;
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 25px;
 }
 

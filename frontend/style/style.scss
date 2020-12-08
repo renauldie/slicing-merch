@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(246, 246, 246);
+  background-color: #fff;
 }
 
 nav {
@@ -9,15 +9,16 @@ nav {
   }
 }
 
+.btn-primary {
+  background-color: black;
+}
+
 header {
-  .jumbotron {
-    background: rgb(246, 246, 246) !important;
-  }
+  background-color: rgb(246, 246, 248) !important;
 }
 
 .section-networks {
-  background-color: #ffffff;
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 25px;
 
   h2 {
