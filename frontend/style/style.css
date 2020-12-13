@@ -1,21 +1,62 @@
 body {
   background-color: #fff;
+  font-family: 'Montserrat';
 }
 
 nav ul li a {
   font-size: small;
 }
 
+.main-color {
+  background-color: #17416B;
+}
+
 .btn-primary {
-  background-color: black;
+  background-color: #1c3d77;
+  border: 0;
+}
+
+.btn-secondary {
+  background-color: #b4b4b4;
+  color: #1c3d77;
+  border: 0;
 }
 
 header {
-  background-color: #f6f6f8 !important;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+header h3 {
+  color: #ffffff;
+  margin-top: 90px;
+}
+
+header p {
+  color: #fff;
+}
+
+header .btn-white {
+  margin-top: 45px;
+  background-color: #fff;
+  color: #000000;
+}
+
+header .btn-white:hover {
+  background-color: #1f568d;
+  color: #ffffff;
+}
+
+header .img-side {
+  padding: 0px;
+}
+
+.section-featured-item {
+  margin-top: 15px;
 }
 
 .section-networks {
-  margin-top: 20px;
+  margin-top: 75px;
   padding: 25px;
 }
 
@@ -30,7 +71,25 @@ header {
 }
 
 .section-networks .img-net {
+  margin-top: -30px;
   border: 0px;
-  max-width: 100px;
+  max-width: 700px;
+}
+
+@media (max-width: 978px) {
+  .header-top {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 0;
+  }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
