@@ -56,7 +56,7 @@ header .img-side {
 }
 
 .section-networks {
-  margin-top: 75px;
+  margin-top: 15px;
   padding: 25px;
 }
 
@@ -74,6 +74,10 @@ header .img-side {
   margin-top: -30px;
   border: 0px;
   max-width: 700px;
+}
+
+.section-footer {
+  background-color: #17416B;
 }
 
 @media (max-width: 978px) {

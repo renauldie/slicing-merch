@@ -60,7 +60,7 @@ header {
 }
 
 .section-networks {
-  margin-top: 75px;
+  margin-top: 15px;
   padding: 25px;
 
   h2 {
@@ -80,7 +80,9 @@ header {
   }
 }
 
-.section-footer {}
+.section-footer {
+  background-color: #17416B;
+}
 
 
 @media (max-width: 978px) {
