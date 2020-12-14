@@ -115,6 +115,14 @@ header {
   }
 }
 
+.section-product-detail {
+  padding: 50px;
+}
+
+
+
+
+
 
 @media (max-width: 978px) {
   .header-top {
@@ -140,3 +148,153 @@ header {
     padding: 30px;
   }
 }
+
+//detail content
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -68px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071C4D;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border: none;
+    // border-radius: 11px;
+
+    .product-information {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+
+      .text-blue {
+        color: #071C4D;
+        font-weight: bold;
+      }
+    }
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #b1b1b1;
+    }
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+  }
+
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
+
+      .xactive {
+        border: 2px solid #1abc9c;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #071c4d;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+
+  .join-container {
+    margin-top: -16px;
+  }
+
+  .btn-add {
+    background-color: #1f568d;
+    color: #fff;
+    border-radius: 0;
+
+
+    &:hover {
+      background-color: #2773be;
+    }
+  }
+
+  .btn-buy {
+    background-color: #2773be;
+    color: #fff;
+    border-radius: 0;
+
+
+    &:hover {
+      background-color: #1f568d;
+    }
+  }
+
+  .input-group-text {
+    background-color: transparent;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #071c4d;
+  }
+}
+
