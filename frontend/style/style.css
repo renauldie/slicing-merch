@@ -77,7 +77,24 @@ header .img-side {
 }
 
 .section-footer {
+  margin-top: 30px;
   background-color: #17416B;
+  padding: 20px;
+  padding-left: 240px;
+  padding-right: 240px;
+  bottom: 0px;
+}
+
+.section-footer p {
+  color: #fff;
+}
+
+.section-footer a {
+  color: #ffffff;
+}
+
+.section-footer a i {
+  color: #ffffff;
 }
 
 @media (max-width: 978px) {
@@ -94,6 +111,12 @@ header .img-side {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-footer {
+    padding: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

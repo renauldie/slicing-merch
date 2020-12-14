@@ -1,6 +1,7 @@
 body {
   background-color: #fff;
   font-family: 'Montserrat';
+  
 }
 
 nav {
@@ -81,7 +82,23 @@ header {
 }
 
 .section-footer {
+  margin-top: 30px;
   background-color: #17416B;
+  padding: 20px;
+  padding-left: 240px;
+  padding-right: 240px;
+
+  bottom: 0px;
+  p {
+    color: #fff;
+  }
+
+  a {
+    color: #ffffff;
+    i{
+      color: #ffffff;
+    }
+  }
 }
 
 
@@ -101,5 +118,11 @@ header {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+  }
+}
+
+@media(max-width:1200px) {
+  .section-footer {
+    padding: 30px;
   }
 }
