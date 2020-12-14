@@ -58,6 +58,20 @@ header {
 
 .section-featured-item {
   margin-top: 15px;
+
+  ul{
+    li{
+      a{
+        color: #b4b4b4;
+        text-decoration: none;
+
+        &:hover {
+          color: #1f568d;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
 }
 
 .section-networks {

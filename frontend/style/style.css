@@ -55,6 +55,17 @@ header .img-side {
   margin-top: 15px;
 }
 
+.section-featured-item ul li a {
+  color: #b4b4b4;
+  text-decoration: none;
+}
+
+.section-featured-item ul li a:hover {
+  color: #1f568d;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 .section-networks {
   margin-top: 15px;
   padding: 25px;
