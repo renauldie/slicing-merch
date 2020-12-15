@@ -1,23 +1,28 @@
 body {
   background-color: #fff;
-  font-family: 'Montserrat';
-  
+  font-family: "Montserrat";
 }
 
 nav {
-
   ul li a {
     font-size: small;
   }
 }
 
 .main-color {
-  background-color: #17416B;
+  background-color: #17416b;
 }
 
 .btn-primary {
   background-color: rgb(28, 61, 119);
   border: 0;
+}
+
+.btn-no-color {
+  background-color: transparent;
+  button:focus {
+    outline: 0;
+  }
 }
 
 .btn-secondary {
@@ -32,7 +37,7 @@ header {
 
   h3 {
     color: #ffffff;
-    margin-top: 90px;
+    margin-top: 60px;
   }
 
   p {
@@ -53,15 +58,14 @@ header {
   .img-side {
     padding: 0px;
   }
-
 }
 
 .section-featured-item {
   margin-top: 15px;
 
-  ul{
-    li{
-      a{
+  ul {
+    li {
+      a {
         color: #b4b4b4;
         text-decoration: none;
 
@@ -71,6 +75,22 @@ header {
         }
       }
     }
+  }
+
+  .btn-show {
+    background-color: #1f568d;
+    color: #fff;
+    border-radius: 10;
+
+    &:hover {
+      background-color: #2773be;
+    }
+  }
+
+  h2 {
+    color: #071c4d;
+    font-weight: bold;
+    margin-bottom: 0;
   }
 }
 
@@ -97,7 +117,7 @@ header {
 
 .section-footer {
   margin-top: 30px;
-  background-color: #17416B;
+  background-color: #17416b;
   padding: 20px;
   padding-left: 240px;
   padding-right: 240px;
@@ -109,20 +129,11 @@ header {
 
   a {
     color: #ffffff;
-    i{
+    i {
       color: #ffffff;
     }
   }
 }
-
-.section-product-detail {
-  padding: 50px;
-}
-
-
-
-
-
 
 @media (max-width: 978px) {
   .header-top {
@@ -143,7 +154,7 @@ header {
   }
 }
 
-@media(max-width:1200px) {
+@media (max-width: 1200px) {
   .section-footer {
     padding: 30px;
   }
@@ -170,7 +181,7 @@ header {
   .breadcrumb-item {
     &.active {
       font-weight: bold;
-      color: #071C4D;
+      color: #071c4d;
     }
   }
 
@@ -193,7 +204,7 @@ header {
       }
 
       .text-blue {
-        color: #071C4D;
+        color: #071c4d;
         font-weight: bold;
       }
     }
@@ -270,7 +281,6 @@ header {
     color: #fff;
     border-radius: 0;
 
-
     &:hover {
       background-color: #2773be;
     }
@@ -280,7 +290,6 @@ header {
     background-color: #2773be;
     color: #fff;
     border-radius: 0;
-
 
     &:hover {
       background-color: #1f568d;
@@ -298,3 +307,70 @@ header {
   }
 }
 
+//cart
+
+.section-cart-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -68px;
+}
+
+.section-cart-detail {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071c4d;
+    }
+  }
+
+  .card-details {
+    .product-information {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+
+      .text-blue {
+        color: #071c4d;
+        font-weight: bold;
+      }
+    }
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #b1b1b1;
+    }
+  }
+  .btn-chekout {
+    background-color: #2773be;
+    color: #fff;
+
+    &:hover {
+      background-color: #1f568d;
+    }
+  }
+}

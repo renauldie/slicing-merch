@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 nav ul li a {
@@ -8,12 +8,20 @@ nav ul li a {
 }
 
 .main-color {
-  background-color: #17416B;
+  background-color: #17416b;
 }
 
 .btn-primary {
   background-color: #1c3d77;
   border: 0;
+}
+
+.btn-no-color {
+  background-color: transparent;
+}
+
+.btn-no-color button:focus {
+  outline: 0;
 }
 
 .btn-secondary {
@@ -29,7 +37,7 @@ header {
 
 header h3 {
   color: #ffffff;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 header p {
@@ -66,6 +74,22 @@ header .img-side {
   transition: all 0.3s ease;
 }
 
+.section-featured-item .btn-show {
+  background-color: #1f568d;
+  color: #fff;
+  border-radius: 10;
+}
+
+.section-featured-item .btn-show:hover {
+  background-color: #2773be;
+}
+
+.section-featured-item h2 {
+  color: #071c4d;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
 .section-networks {
   margin-top: 15px;
   padding: 25px;
@@ -89,7 +113,7 @@ header .img-side {
 
 .section-footer {
   margin-top: 30px;
-  background-color: #17416B;
+  background-color: #17416b;
   padding: 20px;
   padding-left: 240px;
   padding-right: 240px;
@@ -106,10 +130,6 @@ header .img-side {
 
 .section-footer a i {
   color: #ffffff;
-}
-
-.section-product-detail {
-  padding: 50px;
 }
 
 @media (max-width: 978px) {
@@ -154,7 +174,7 @@ header .img-side {
 
 .section-details-content .breadcrumb-item.active {
   font-weight: bold;
-  color: #071C4D;
+  color: #071c4d;
 }
 
 .section-details-content .card-details {
@@ -175,7 +195,7 @@ header .img-side {
 }
 
 .section-details-content .card-details .product-information .text-blue {
-  color: #071C4D;
+  color: #071c4d;
   font-weight: bold;
 }
 
@@ -273,5 +293,66 @@ header .img-side {
   font-weight: 400;
   font-size: 14px;
   color: #071c4d;
+}
+
+.section-cart-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -68px;
+}
+
+.section-cart-detail {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-cart-detail .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-cart-detail .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+
+.section-cart-detail .card-details .product-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+
+.section-cart-detail .card-details .product-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-cart-detail .card-details .product-information .text-blue {
+  color: #071c4d;
+  font-weight: bold;
+}
+
+.section-cart-detail .card-details h1 {
+  font-size: 26px;
+}
+
+.section-cart-detail .card-details h2 {
+  font-size: 20px;
+}
+
+.section-cart-detail .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-cart-detail .btn-chekout {
+  background-color: #2773be;
+  color: #fff;
+}
+
+.section-cart-detail .btn-chekout:hover {
+  background-color: #1f568d;
 }
 /*# sourceMappingURL=style.css.map */
