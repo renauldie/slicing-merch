@@ -31,6 +31,15 @@ nav {
   border: 0;
 }
 
+.table-borderless {
+  th {
+    border: none;
+  }
+  td {
+    border: none;
+  }
+}
+
 header {
   padding-left: 60px;
   padding-right: 60px;
@@ -371,6 +380,107 @@ header {
 
     &:hover {
       background-color: #1f568d;
+    }
+  }
+}
+
+//chekout
+
+.section-chekout-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -68px;
+}
+
+.section-chekout-detail {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071c4d;
+    }
+  }
+
+  .card-details {
+    .product-information {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+
+      .text-blue {
+        color: #071c4d;
+        font-weight: bold;
+      }
+    }
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #b1b1b1;
+    }
+  }
+  .btn-chekout {
+    background-color: #2773be;
+    color: #fff;
+
+    &:hover {
+      background-color: #1f568d;
+    }
+  }
+}
+
+//success
+
+.section-success {
+  height: 90vh;
+
+  img {
+    max-width: 400px;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #071c4d;
+    color: #fff;
+
+    &:hover {
+      background-color: #2a488e;
+      color: #fff;
     }
   }
 }
