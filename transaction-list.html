@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evos Merch</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/libraries/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="frontend/libraries/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="frontend/libraries/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="frontend/libraries/fontawesome/css/solid.css" />
+    <link rel="stylesheet" href="frontend/style/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-white navbar-expand">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="frontend/images/logo.png" width="30" height="30" alt="" />
+          Evos merch
+        </a>
+
+        <ul class="navbar-nav">
+          <li>
+            <a href="product.html" class="nav-link">
+              All Product
+            </a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li>
+            <a href="#" class="nav-link">
+              Product Category
+            </a>
+          </li>
+        </ul>
+
+        <div class="navbar-nav ml-auto">
+          <ul class="navbar-nav mr-5">
+
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">
+                <i class="fa fa-shopping-cart"></i>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right position-absolute" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="#">Transaction History</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Login</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <main>
+      <section class="section-cart-header"></section>
+      <section class="section-cart-detail">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0 pl-3 pl-lg-0">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item" aria-current="page">
+                    Home
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Transaction List
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xl-12">
+              <div class="card mt-5">
+                <div class="card-body">
+                  <h5 class="card-title">Transaction List</h5>
+                </div>
+                <div class="container-fluid">
+                  <table class="table text-center">
+                    <div class="table-responsive">
+                      <thead>
+                        <tr>
+                          <th>No</th>
+                          <th>Recipient</th>
+                          <th>Total Item</th>
+                          <th>Total Payment</th>
+                          <th>Status Transaction</th>
+                          <th>Detail</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Rynnasdf</td>
+                          <td>1</td>
+                          <td>Rp 24.000,-</td>
+                          <td>Pending</td>
+                          <td>
+                            <button class="btn btn-sm btn-info">
+                              <i class="fa fa-info-circle"></i>
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>Rynnasdf</td>
+                          <td>1</td>
+                          <td>Rp 24.000,-</td>
+                          <td>Pending</td>
+                          <td>
+                            <button class="btn btn-sm btn-info">
+                              <i class="fa fa-info-circle"></i>
+                            </button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </div>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/script/main.js"></script>
+  </body>
+
+</html>

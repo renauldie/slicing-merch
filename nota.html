@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evos Merch</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/libraries/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="frontend/libraries/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="frontend/libraries/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="frontend/libraries/fontawesome/css/solid.css" />
+    <link rel="stylesheet" href="frontend/style/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-white navbar-expand">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="frontend/images/logo.png" width="30" height="30" alt="" />
+          Evos merch
+        </a>
+
+        <ul class="navbar-nav">
+          <li>
+            <a href="product.html" class="nav-link">
+              All Product
+            </a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li>
+            <a href="#" class="nav-link">
+              Product Category
+            </a>
+          </li>
+        </ul>
+
+        <div class="navbar-nav ml-auto">
+          <ul class="navbar-nav mr-5">
+
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">
+                <i class="fa fa-shopping-cart"></i>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right position-absolute" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="#">Transaction History</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Login</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <main>
+      <section class="section-cart-detail mb-5" style="margin-top: 30px;">
+        <div class="container">
+          <div class="row justify-content-center container">
+            <div class="col-md-8 col-xl-8 align-self-center">
+              <div class="card mt-5">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Invoice</h5>
+                </div>
+                <div class="container">
+                  <table class="table table-borderless">
+                    <tbody>
+                      <tr>
+                        <th style="width: 440px;">Recipient</th>
+                        <td class="text-muted text-right">Rynn</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Address</th>
+                        <td class="text-muted text-right">Bantul Dagen pendowoharjo</td>
+                      </tr>
+                      <tr>
+                        <th>Payment Code</th>
+                        <td class="text-muted font-weight-bold text-right">TR-042</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Transaction Status </th>
+                        <td class="text-muted text-right">Pending</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <hr class="fa-pull-left" style="width: 200px;">
+                  <table class="table table-borderless">
+                    <tbody>
+                      <tr>
+                        <th style="width: 440px;" class="text-muted">Items</th>
+                      </tr>
+                      <tr>
+                        <td scope="row">Baju Bagus</td>
+                        <td class="text-muted text-right">Rp.20.000,-</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Baju Bagus</td>
+                        <td class="text-muted text-right">Rp.20.000,-</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Baju Bagus</td>
+                        <td class="text-muted text-right">Rp.20.000,-</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Baju Bagus</td>
+                        <td class="text-muted text-right">Rp.20.000,-</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <hr class="fa-pull-left" style="width: 200px;">
+                  <table class="table table-borderless">
+                    <tbody>
+                      <tr>
+                        <th style="width: 440px;" class="text-muted">Total Transaction</th>
+                      </tr>
+                      <tr>
+                        <td scope="row" class="font-weight-bold">Total</td>
+                        <td class="text-muted text-right">Rp.20.000,-</td>
+                    </tbody>
+                  </table>
+                  <button class="btn btn-md btn-primary mt-4 mb-3 btn-block">Print </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/script/main.js"></script>
+  </body>
+
+</html>
